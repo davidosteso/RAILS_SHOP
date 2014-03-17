@@ -4,7 +4,7 @@ class CreateProducts < ActiveRecord::Migration
       t.string :title
       t.string :description
       t.text :manufacturer
-      t.datetime :inStockDate
+      t.datetime :in_Stock_Date
       t.integer :quantity
 
       t.timestamps
