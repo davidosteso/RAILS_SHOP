@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  estado_pedido: MyString
+  medio_pago: MyString
+  direccion_pedido: MyString
+  ciudad_envio: MyString
+  nombre_apellidos: MyString
+
+two:
+  estado_pedido: MyString
+  medio_pago: MyString
+  direccion_pedido: MyString
+  ciudad_envio: MyString
+  nombre_apellidos: MyString

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Estado pedido:</strong>
+  <%= @order.estado_pedido %>
+</p>
+
+<p>
+  <strong>Medio pago:</strong>
+  <%= @order.medio_pago %>
+</p>
+
+<p>
+  <strong>Direccion pedido:</strong>
+  <%= @order.direccion_pedido %>
+</p>
+
+<p>
+  <strong>Ciudad envio:</strong>
+  <%= @order.ciudad_envio %>
+</p>
+
+<p>
+  <strong>Nombre apellidos:</strong>
+  <%= @order.nombre_apellidos %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>
